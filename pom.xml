@@ -16,7 +16,7 @@
 
     <properties>
         <docker.image.prefix>localhost:5000</docker.image.prefix>
-        <dockerfile-maven-version>1.4.13</dockerfile-maven-version>
+        <dockerfile-maven-version>1.4.10</dockerfile-maven-version>
         <java.version>11</java.version>
     </properties>
 
