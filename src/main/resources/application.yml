@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: gateway-client
+  cloud:
+    gateway:
+      routes:
+        - id: route
+          uri: lb://demo
+          predicates:
+            - Path=/a/a
+          filters:
+            - StripPrefix=1
