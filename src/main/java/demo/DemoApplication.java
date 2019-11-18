@@ -13,9 +13,9 @@ public class DemoApplication {
         SpringApplication.run(DemoApplication.class, args);
     }
 
-    @RequestMapping("a")
-    public String a() {
-        return "a";
+    @RequestMapping("gateway")
+    public String gateway() {
+        return "gateway";
     }
 
 }
