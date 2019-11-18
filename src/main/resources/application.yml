@@ -5,7 +5,7 @@ spring:
     gateway:
       routes:
         - id: route
-          uri: lb://demo
+          uri: lb://b
           predicates:
             - Path=/a/a
           filters:
